@@ -1,29 +1,50 @@
-# vue-photo-preview
+# vue-photo-preview-mobile
 
-## Project setup
-```
-npm install
-```
+> 简单的vue组件
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 安装
 
-### Compiles and minifies for production
+``` bash
+$ npm install vue-photo-preview-mobile -S
 ```
-npm run build
-```
+## 使用
 
-### Run your tests
-```
-npm run test
+在 `main.js` 文件中引入插件并注册
+
+``` bash
+import photoPreview from 'vue-photo-preview-mobile'
+import 'vue-photo-preview-mobile/lib/vue-photo-preview-mobile.css'
+Vue.use(photoPreview)
 ```
 
-### Lints and fixes files
-```
-npm run lint
+在项目中用使用 photoPreview
+
+
+```js
+<template>
+  <photo-preview :msg ="msgTxt" />
+</template>
+<script>
+  export default {
+    data () {
+      return {
+        msgTxt: '你好'
+      }
+    }
+  }
+</script>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+注意：标签为 `<photo-preview>`
+
+
+## 参数
+
+| 参数 | 说明 | 类型 | 
+| ------ | ------ | ------ | 
+| msg | 传入信息值 | String |
+
+
+
+
+

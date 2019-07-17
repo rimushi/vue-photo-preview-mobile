@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// 导入组件库
+import PhotoPreview from './../packages/index'
+// 注册组件库
+Vue.use(PhotoPreview)
+
 Vue.config.productionTip = false
 
 new Vue({
