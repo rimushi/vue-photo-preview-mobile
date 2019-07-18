@@ -1,6 +1,6 @@
 # vue-photo-preview-mobile
 
-> 简单的vue组件
+> 使用vue cli3开发一个可以全局注册使用的vue组件，组件库可扩展
 
 ## 安装
 

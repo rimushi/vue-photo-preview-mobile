@@ -11,7 +11,9 @@ export default {
     return {
     }
   },
-  props:['msg']
+  //props可以使数组也可以是对象，如果是对象，后面的是对应的类型
+  // props: {'msg': String}
+  props: ['msg']
 }
 </script>
 

@@ -1,11 +1,10 @@
 {
   "name": "vue-photo-preview-mobile",
-  "version": "0.2.1",
-  "private": true,
-  "description": "基于 Vue 的颜色选择器",
+  "version": "0.2.8",
+  "private": false,
+  "description": "使用vue cli3开发一个可以全局注册使用的vue组件，组件库可扩展",
   "main": "lib/vue-photo-preview-mobile.umd.min.js",
   "keyword": "vue-photo-preview-mobile photopreview photo-preview",
-  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -14,6 +13,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "exif-js": "^2.3.0",
+    "lrz": "^4.9.40",
     "vue": "^2.6.10"
   },
   "devDependencies": {
